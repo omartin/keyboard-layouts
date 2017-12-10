@@ -9,7 +9,7 @@ Thus you can simply type `;s` to output `é` without leaving the home row.
 
 ## Installation
 
-Copy the file `Qwerty-french.bundle` to `~/Library/Keyboard Layouts/` and select the new layout `Qwerty-french`.
+Copy the file `Qwerty-french.bundle` to `~/Library/Keyboard Layouts/` and select the new layout `Qwerty-french` or `Colemak-french` depending on your fanciness.
 
 ## Note
 
