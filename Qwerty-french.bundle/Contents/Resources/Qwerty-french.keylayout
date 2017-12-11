@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.2.7.195 on 2017-12-10 at 21:43 (CET)-->
-<keyboard group="126" id="-8190" name="Qwerty-french" maxout="1">
+<!--Last edited by Ukelele version 3.2.7.195 on 2017-12-11 at 17:49 (CET)-->
+<keyboard group="126" id="-27610" name="Qwerty-french" maxout="1">
 	<layouts>
 		<layout first="0" last="17" mapSet="16c" modifiers="f4"/>
 		<layout first="18" last="18" mapSet="984" modifiers="f4"/>
@@ -80,10 +80,10 @@
 			<key code="34" action="15"/>
 			<key code="35" output="p"/>
 			<key code="36" output="&#x000D;"/>
-			<key code="37" output="l"/>
+			<key code="37" action="l"/>
 			<key code="38" action="j"/>
 			<key code="39" output="&#x0027;"/>
-			<key code="40" output="k"/>
+			<key code="40" action="k"/>
 			<key code="41" action=";"/>
 			<key code="42" output="\"/>
 			<key code="43" output=","/>
@@ -1131,6 +1131,14 @@
 			<when state="none" output="j"/>
 			<when state="FrenchState" output="ù"/>
 		</action>
+		<action id="k">
+			<when state="none" output="k"/>
+			<when state="FrenchState" next="3"/>
+		</action>
+		<action id="l">
+			<when state="none" output="l"/>
+			<when state="FrenchState" next="4"/>
+		</action>
 		<action id="s">
 			<when state="none" output="s"/>
 			<when state="FrenchState" output="é"/>
@@ -1142,6 +1150,6 @@
 		<when state="3" output="ˆ"/>
 		<when state="4" output="¨"/>
 		<when state="5" output="˜"/>
-		<when state="FrenchState" output=""/>
+		<when state="FrenchState" output=";"/>
 	</terminators>
 </keyboard>
