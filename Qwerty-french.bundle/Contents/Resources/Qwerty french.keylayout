@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.2.7.195 on 2017-12-11 at 17:49 (CET)-->
-<keyboard group="126" id="-27610" name="Qwerty-french" maxout="1">
+<!--Last edited by Ukelele version 3.2.7.195 on 2017-12-15 at 17:23 (CET)-->
+<keyboard group="0" id="6960" name="Qwerty french" maxout="1">
 	<layouts>
 		<layout first="0" last="17" mapSet="16c" modifiers="f4"/>
 		<layout first="18" last="18" mapSet="984" modifiers="f4"/>
@@ -153,14 +153,14 @@
 		</keyMap>
 		<keyMap index="1">
 			<key code="0" action="6"/>
-			<key code="1" output="S"/>
-			<key code="2" output="D"/>
-			<key code="3" output="F"/>
+			<key code="1" action="S"/>
+			<key code="2" action="D"/>
+			<key code="3" action="F"/>
 			<key code="4" output="H"/>
 			<key code="5" output="G"/>
 			<key code="6" output="Z"/>
 			<key code="7" output="X"/>
-			<key code="8" output="C"/>
+			<key code="8" action="C"/>
 			<key code="9" output="V"/>
 			<key code="10" output="±"/>
 			<key code="11" output="B"/>
@@ -190,7 +190,7 @@
 			<key code="35" output="P"/>
 			<key code="36" output="&#x000D;"/>
 			<key code="37" output="L"/>
-			<key code="38" output="J"/>
+			<key code="38" action="J"/>
 			<key code="39" output="&#x0022;"/>
 			<key code="40" output="K"/>
 			<key code="41" output=":"/>
@@ -1037,6 +1037,7 @@
 			<when state="2" output="è"/>
 			<when state="3" output="ê"/>
 			<when state="4" output="ë"/>
+			<when state="FrenchState" output="€"/>
 		</action>
 		<action id="15">
 			<when state="none" output="i"/>
@@ -1056,6 +1057,7 @@
 			<when state="3" output="ô"/>
 			<when state="4" output="ö"/>
 			<when state="5" output="õ"/>
+			<when state="FrenchState" output="œ"/>
 		</action>
 		<action id="18">
 			<when state="none" output="u"/>
@@ -1092,6 +1094,7 @@
 			<when state="3" output="Â"/>
 			<when state="4" output="Ä"/>
 			<when state="5" output="Ã"/>
+			<when state="FrenchState" output="À"/>
 		</action>
 		<action id="7">
 			<when state="none" output="E"/>
@@ -1114,6 +1117,26 @@
 		<action id=";">
 			<when state="none" next="FrenchState"/>
 			<when state="FrenchState" output=";"/>
+		</action>
+		<action id="C">
+			<when state="none" output="C"/>
+			<when state="FrenchState" output="Ç"/>
+		</action>
+		<action id="D">
+			<when state="none" output="D"/>
+			<when state="FrenchState" output="È"/>
+		</action>
+		<action id="F">
+			<when state="none" output="F"/>
+			<when state="FrenchState" output="Ê"/>
+		</action>
+		<action id="J">
+			<when state="none" output="J"/>
+			<when state="FrenchState" output="Ù"/>
+		</action>
+		<action id="S">
+			<when state="none" output="S"/>
+			<when state="FrenchState" output="É"/>
 		</action>
 		<action id="c">
 			<when state="none" output="c"/>
@@ -1150,6 +1173,6 @@
 		<when state="3" output="ˆ"/>
 		<when state="4" output="¨"/>
 		<when state="5" output="˜"/>
-		<when state="FrenchState" output=";"/>
+		<when state="FrenchState" output="-"/>
 	</terminators>
 </keyboard>
