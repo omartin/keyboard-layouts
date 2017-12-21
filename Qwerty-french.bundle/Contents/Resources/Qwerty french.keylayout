@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.2.7.195 on 2017-12-15 at 17:23 (CET)-->
-<keyboard group="0" id="6960" name="Qwerty french" maxout="1">
+<!--Last edited by Ukelele version 3.2.7.195 on 2017-12-21 at 18:09 (CET)-->
+<keyboard group="0" id="12926" name="Qwerty french" maxout="1">
 	<layouts>
 		<layout first="0" last="17" mapSet="16c" modifiers="f4"/>
 		<layout first="18" last="18" mapSet="984" modifiers="f4"/>
@@ -1049,6 +1049,7 @@
 		<action id="16">
 			<when state="none" output="n"/>
 			<when state="5" output="ñ"/>
+			<when state="FrenchState" output="~"/>
 		</action>
 		<action id="17">
 			<when state="none" output="o"/>
@@ -1057,7 +1058,6 @@
 			<when state="3" output="ô"/>
 			<when state="4" output="ö"/>
 			<when state="5" output="õ"/>
-			<when state="FrenchState" output="œ"/>
 		</action>
 		<action id="18">
 			<when state="none" output="u"/>
@@ -1173,6 +1173,6 @@
 		<when state="3" output="ˆ"/>
 		<when state="4" output="¨"/>
 		<when state="5" output="˜"/>
-		<when state="FrenchState" output="-"/>
+		<when state="FrenchState" output="~"/>
 	</terminators>
 </keyboard>
