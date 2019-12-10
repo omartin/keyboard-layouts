@@ -5,15 +5,15 @@
 	<key>CFBundleIdentifier</key>
 	<string>org.sil.ukelele.keyboardlayout.qwerty-french</string>
 	<key>CFBundleName</key>
-	<string>Qwerty-french</string>
+	<string>Tarmak-step2</string>
 	<key>CFBundleVersion</key>
 	<string></string>
-	<key>KLInfo_Qwerty french</key>
+	<key>KLInfo_Tarmak-step2</key>
 	<dict>
 		<key>TICapsLockLanguageSwitchCapable</key>
 		<false/>
 		<key>TISInputSourceID</key>
-		<string>org.sil.ukelele.keyboardlayout.qwerty-french.qwertyfrench</string>
+		<string>org.sil.ukelele.keyboardlayout.qwerty-french.tarmak-step2</string>
 		<key>TISIntendedLanguage</key>
 		<string>en</string>
 	</dict>
