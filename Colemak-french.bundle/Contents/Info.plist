@@ -10,6 +10,8 @@
 	<string></string>
 	<key>KLInfo_Colemak-french</key>
 	<dict>
+		<key>TICapsLockLanguageSwitchCapable</key>
+		<false/>
 		<key>TISInputSourceID</key>
 		<string>org.sil.ukelele.keyboardlayout.colemak-french.colemak-french</string>
 		<key>TISIntendedLanguage</key>
